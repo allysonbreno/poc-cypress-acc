@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --browser chrome",
-    "open": "npx cypress open"
+    "open": "npx cypress open", 
+    "test-headless-video": "cypress run --headless --browser chrome"
   },
   "author": "",
   "license": "ISC",
