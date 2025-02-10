@@ -66,13 +66,5 @@ Se você deseja executar todos os testes de forma **headless** (sem abrir a inte
  npm run test-headless-video
 ```
 
-#### 3. **Executar Testes sem Modo Headless e Gerar Log no Terminal**
-
-Se você preferir rodar os testes com a interface gráfica do Cypress aberta (não em modo headless) e visualizar os logs de execução diretamente no terminal, use o seguinte comando:
-
-```bash
- npm run test
-```
-
-#### 4. **Observaçao 1 - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
-#### 5. **Observaçao 2 - O cenário de Interaction está fragil devido a má performance do cypress com relacao ao Drag and Drop, o cenário foi construido com a lógica correta, porem vai falhar algumas vezes.**
+#### 3. **Observaçao 1 - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
+#### 4. **Observaçao 2 - O cenário de Interaction está fragil devido a má performance do cypress com relacao ao Drag and Drop, o cenário foi construido com a lógica correta, porem vai falhar algumas vezes.**
