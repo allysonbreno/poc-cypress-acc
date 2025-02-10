@@ -74,4 +74,5 @@ Se você preferir rodar os testes com a interface gráfica do Cypress aberta (n�
  npm run test
 ```
 
-#### 4. **Observaçao final - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
+#### 4. **Observaçao 1 - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
+#### 5. **Observaçao 2 - O cenário de Interaction está fragil devido a má performance do cypress com relacao ao Drag and Drop, o cenário foi construido com a lógica correta, porem vai falhar algumas vezes.**
