@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome",
+    "test": "cypress run --browser electron",
     "open": "npx cypress open", 
     "test-headless-video": "cypress run --headless --browser chrome"
   },
