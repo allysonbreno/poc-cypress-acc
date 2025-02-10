@@ -73,3 +73,5 @@ Se você preferir rodar os testes com a interface gráfica do Cypress aberta (n�
 ```bash
  npm run test
 ```
+
+#### 4. **Observaçao final - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
