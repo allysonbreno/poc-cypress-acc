@@ -35,7 +35,7 @@ SSH:  $ git clone git@github.com:allysonbreno/poc-cypress-acc.git
 
 #### 4. **Com o terminal aberto instale as dependências rodando o comando**
 ```bash
-$ npm install
+ npm install
 ```
 
 #### **Features desenvolvidas**
