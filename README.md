@@ -58,7 +58,15 @@ Se você deseja interagir com a interface gráfica do Cypress e escolher manualm
  npm run open
 ```
 
-#### 2. **Executar Testes em Modo Headless com Evidência de Vídeo**
+#### 2. **Executar Testes em Modo Headless com Evidência de Vídeo usando Electron**
+
+Se você deseja executar todos os testes de forma **headless** (sem abrir a interface gráfica do Cypress) e ainda assim gerar vídeos das execuções para posterior análise, use o seguinte comando:
+
+```bash
+ npm run test
+```
+
+#### 3. **Executar Testes em Modo Headless com Evidência de Vídeo usando Chrome**
 
 Se você deseja executar todos os testes de forma **headless** (sem abrir a interface gráfica do Cypress) e ainda assim gerar vídeos das execuções para posterior análise, use o seguinte comando:
 
@@ -66,5 +74,5 @@ Se você deseja executar todos os testes de forma **headless** (sem abrir a inte
  npm run test-headless-video
 ```
 
-#### 3. **Observaçao 1 - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
-#### 4. **Observaçao 2 - O cenário de Interaction no CHROME está fragil devido a má performance do cypress com relacao ao Drag and Drop, o cenário foi construido com a lógica correta, porem vai falhar algumas vezes usando o CHROME.**
+#### 4. **Observaçao 1 - Caso algum cenário venha a falhar o mesmo gera um print do erro.**
+#### 5. **Observaçao 2 - O cenário de Interaction no CHROME está fragil devido a má performance do cypress com relacao ao Drag and Drop, o cenário foi construido com a lógica correta, porem vai falhar algumas vezes usando o CHROME.**
