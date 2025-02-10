@@ -12,7 +12,7 @@ class ApiPage {
     createUser() { 
         userCredentials = {
             userName: faker.internet.username(),
-            password: this.generateValidPassword(),
+            password: "Teste@3434",
         };
 
         cy.request({
@@ -123,33 +123,6 @@ class ApiPage {
                 cy.log(`Website: ${book.website}`);
             });
         });
-    }
-
-    generateValidPassword() {
-        const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-        const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        const digits = '0123456789';
-        const specialChars = '!@#=';
-        const allChars = lowercase + uppercase + digits + specialChars;
-
-        let password = '';
-
-        password += lowercase.charAt(Math.floor(Math.random() * lowercase.length));
-        password += uppercase.charAt(Math.floor(Math.random() * uppercase.length));
-        password += digits.charAt(Math.floor(Math.random() * digits.length));
-        password += specialChars.charAt(Math.floor(Math.random() * specialChars.length));
-
-        while (password.length < 8) {
-            password += allChars.charAt(Math.floor(Math.random() * allChars.length));
-        }
-
-        password = this.shuffleString(password);
-        cy.log(`Senha gerada: ${password}`);
-        return password;
-    }
-
-    shuffleString(string) {
-        return string.split('').sort(() => 0.5 - Math.random()).join('');
     }
 }
 
