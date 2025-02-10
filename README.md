@@ -11,7 +11,7 @@ https://demoqa.com/
     <p>Ferramentas e Bibliotecas</p>
     <a href="https://cypress.io/">Cypress</a>
     <br></br>
-    <a href="https://www.npmjs.com/package/faker-br">Faker-BR-NPM</a>
+    <a href="https://v9.fakerjs.dev/guide/">Faker</a>
 </h4>
 
 ### Pré-requisitos
@@ -45,7 +45,7 @@ $ npm install
 <h5> Element:      Web Tables ✅ 
 <h5> Widgets:    Progress Bar ✅ 
 <h5> Interaction:    Sortable ✅ 
-<h5> Api: Criar,   gerar token✅, confirmar usuario autorizado✅, listar livros✅, alugar 2 deles✅ e listar detalhes dos livros alugados✅.    
+<h5> Api: Criar,Gerar Token✅, Confirmar Usuario Autorizado✅, Listar Livros✅, Alugar 2 Deles✅ e Listar Detalhes Dos Livros Alugados✅.    
 </p>
 
 ### 🚀 Rodando os Testes
@@ -55,7 +55,7 @@ $ npm install
 Se você deseja interagir com a interface gráfica do Cypress e escolher manualmente os cenários de teste a serem executados, use o seguinte comando:
 
 ```bash
-$ npm run open
+ npm run open
 ```
 
 #### 2. **Executar Testes em Modo Headless com Evidência de Vídeo**
@@ -63,7 +63,7 @@ $ npm run open
 Se você deseja executar todos os testes de forma **headless** (sem abrir a interface gráfica do Cypress) e ainda assim gerar vídeos das execuções para posterior análise, use o seguinte comando:
 
 ```bash
-$ npm run test-headless-video
+ npm run test-headless-video
 ```
 
 #### 3. **Executar Testes sem Modo Headless e Gerar Log no Terminal**
@@ -71,5 +71,5 @@ $ npm run test-headless-video
 Se você preferir rodar os testes com a interface gráfica do Cypress aberta (não em modo headless) e visualizar os logs de execução diretamente no terminal, use o seguinte comando:
 
 ```bash
-$ npm run test
+ npm run test
 ```
